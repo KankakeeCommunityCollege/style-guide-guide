@@ -1,0 +1,47 @@
+/*------------------------------------*\
+    #SWATCHES
+\*------------------------------------*/
+
+/*
+ */
+ .swatch {
+     overflow: hidden;
+     background-color: #fff;
+     margin: 12px 0;
+     font-size: 12px
+ }
+
+ .swatch .swatch-colour {
+     float: left;
+     width: 66px;
+     height: 66px;
+     background: none;
+     padding: 3px 0 0 6px;
+     color: #fff
+ }
+
+ .swatch .swatch-values {
+     float: left;
+     background-color: #fff;
+     padding: 6px;
+     width: 50%
+ }
+
+ .swatch .swatch-values .swatch-value {
+     display: block;
+     margin: 0
+ }
+
+div#copy_message{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0.4em;
+  box-shadow: 0 0 10px rgba(0,0,0,0.175);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.175);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.175);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(0,0,0,0.1);
+  font-size: 0.95em
+}
